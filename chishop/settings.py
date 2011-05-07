@@ -11,7 +11,7 @@ DJANGOPYPI_RELEASE_UPLOAD_TO = 'dists'
 # change to False if you do not want Django's default server to serve static pages
 LOCAL_DEVELOPMENT = False
 
-REGISTRATION_OPEN = True
+REGISTRATION_OPEN = False
 ACCOUNT_ACTIVATION_DAYS = 7
 LOGIN_REDIRECT_URL = "/"
 
@@ -100,7 +100,7 @@ INSTALLED_APPS = (
 )
 
 
-DEBUG = True
+DEBUG = False
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
